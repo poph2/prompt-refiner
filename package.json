@@ -1,0 +1,27 @@
+{
+  "name": "prompt-refiner",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poph2/prompt-refiner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poph2/prompt-refiner/issues"
+  },
+  "homepage": "https://github.com/poph2/prompt-refiner#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
