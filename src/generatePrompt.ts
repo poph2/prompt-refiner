@@ -5,7 +5,7 @@ import {
     colors,
     elements,
     improvers,
-    landscapeShots,
+    landscapeShots, negativePromptElements,
     objects,
     places,
     portraitShots,
@@ -103,3 +103,7 @@ export const generatePrompt = (options?: GeneratorOptions): string => {
 
     return promptComponents.join(", ");
 };
+
+export const generateNegativePrompt = (): string => {
+    return randList(negativePromptElements, 6).join(", ");
+}
